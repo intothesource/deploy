@@ -22,3 +22,5 @@ Tasks (in order)
 ## Solution
 
 This repo provides tasks runners for all of the above. These are designed to be integrated with Gitlab CI/CD. But, rather than relying only on Gitlab CI/CD, this project provides a more standardized solution that should be easier to standardize over many projects.
+
+We will be using our own backend to store backups build artifacts and caches to avoid any issues with gitlab's ephemeral storage.
